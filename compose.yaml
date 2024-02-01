@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=ega_db'
+      - 'MYSQL_PASSWORD=keeptRy1n9'
+      - 'MYSQL_ROOT_PASSWORD=@LwayskeeptRy1n9'
+      - 'MYSQL_USER=ega_user'
+    ports:
+      - '3306'
